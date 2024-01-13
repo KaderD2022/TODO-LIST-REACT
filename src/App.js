@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
+import ToDoMenu  from './components/ToDoMenu';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App App h-screen bg-gradient-to-r from-red-200 via-pink-200 to-pink-300">
+      <h1> TO DO LIST</h1>
+
+      <ToDoMenu />
     </div>
   );
 }
 
 export default App;
+ 
